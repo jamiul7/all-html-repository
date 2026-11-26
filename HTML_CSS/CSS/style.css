@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+#div_1 {
+    width: 100%;
+    height: 33vh;
+    background-color: green;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#div_1 > div {
+    flex: 1;
+    height: 100%;
+}
+
+#div_2{
+background-color: gold;
+width: 100%;
+height: 33vh;
+}
+#div_3{
+background-color: green;
+width: 100%;
+height: 33vh;
+}
+
+#div_1-1{
+    background-color: yellow;
+    /* width: 33%;
+    height: inherit;
+    float: left; */
+}
+#div_1-2{
+    background-color: red;
+    /* width: 33%;
+    height: inherit;
+    float: right; */
+}
+
+#div_1-3{
+    background-color: green;
+    /* width: 34%;
+    height: inherit; */
+    
+    
+}
